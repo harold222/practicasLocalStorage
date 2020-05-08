@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carro compras</title>
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <img src="img/logo.png" id="logo">
+            </div>
+
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito">
+                            <div id="carrito">
+                                    
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Limpiar Carrito</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    </header>
+
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                    <div class="six columns">
+                        <div class="contenido-hero">
+                                <h2>Busca cursos a tu medida</h2>
+                                <p>Aprovecha nuestras ofertas</p>
+                                <form action="#" id="busqueda" method="post" class="formulario">
+                                    <input class="u-full-width" type="text" placeholder="Busca cursos a tu medida..." 
+                                           id="buscador">
+                                    <input type="submit" id="submit-buscador" class="submit-buscador">
+                                </form>
+                        </div>
+                    </div>
+            </div> 
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns icono icono1">
+                        <p>Aprende en línea <br>
+                            Busca cursos de tu interes</p>
+                    </div>
+                    <div class="four columns icono icono2">
+                        <p>Precios bajos<br>
+                        Aprovecha de nuestras ofertas que tenemos para ti</p>
+                    </div>
+                    <div class="four columns icono icono3">
+                        <p>Distintos temas<br>
+                        En nuestra plataforma encontraras cursos sobre varios temas.</p>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lista-cursos" class="container">
+        <h1 id="encabezado" class="encabezado">Descubre tus cursos</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/curso1.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>lorem ipsum</h4>
+                        <p>Soluciones Informaticas</p>
+                        <img src="https://picsum.photos/?random=1">
+                        <p class="precio">$2000<span class="u-pull-right ">$ 1.500</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carro</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://picsum.photos/?random=2" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>lorem ipsum</h4>
+                            <p>Soluciones Informaticas</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$2000<span class="u-pull-right ">$1.500</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar al carro</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://picsum.photos/?random=9" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>lorem ipsum</h4>
+                            <p>Soluciones Informaticas</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$2000<span class="u-pull-right ">$1.500</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar al carro</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="https://picsum.photos/?random=3" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>lorem ipsum</h4>
+                        <p>Soluciones Informaticas</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$2000<span class="u-pull-right ">$1.500</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar al carro</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://picsum.photos/?random=4" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>lorem ipsum</h4>
+                            <p>Soluciones Informaticas</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$2000<span class="u-pull-right ">$1.500</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar al carro</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://picsum.photos/?random=5" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>lorem ipsum</h4>
+                            <p>Soluciones Informaticas</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$2000<span class="u-pull-right ">$1.500</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar al carro</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="https://picsum.photos/?random=6" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>lorem ipsum</h4>
+                        <p>Soluciones Informaticas</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$2000<span class="u-pull-right ">$1.500</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar al carro</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://picsum.photos/?random=7" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>lorem ipsum</h4>
+                            <p>Soluciones Informaticas</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$2000<span class="u-pull-right ">$1.500</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar al carro</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="https://picsum.photos/?random=8" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>lorem ipsum</h4>
+                            <p>Soluciones Informaticas</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$2000<span class="u-pull-right ">$1.500</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar al carro</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+    </div>  
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <nav id="secundaria" class="menu">
+                        <a class="enlace" href="#">&copy Soluciones Informaticas 2020</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
